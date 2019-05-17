@@ -6,11 +6,11 @@ INSERT INTO AUTHOR(emailAddr, firstName, lastName) VALUES
 ('ciara@gmail.com', 'ciara', 'brody');
 
 INSERT INTO PAPER(paperID,title, abstract, fileName, contactAuthorEmail) VALUES
-(1, 'yes', NULL, NULL, 'erin@gmail.com'),
-(2,'no', NULL, NULL, 'sarah@gmail.com'),
-(3,'maybe', NULL, NULL, 'sarah@gmail.com'),
-(4,'idk', NULL, NULL, 'patrick@gmail.com'),
-(5,'possibly', NULL, NULL, 'ciara@gmail.com');
+(1, 'how to say yes', NULL, NULL, 'erin@gmail.com'),
+(2,'The answer could be no', NULL, NULL, 'sarah@gmail.com'),
+(3,'have you tried maybe', NULL, NULL, 'sarah@gmail.com'),
+(4,'the ending had me like idk', NULL, NULL, 'patrick@gmail.com'),
+(5,'possibly the best story ever', NULL, NULL, 'ciara@gmail.com');
 
 INSERT INTO REVIEWER(emailAddr,firstName,lastName,phoneNum,afiliation) VALUES
 ('alpha@gmail.com', 'alpha','smith',NULL,NULL),
